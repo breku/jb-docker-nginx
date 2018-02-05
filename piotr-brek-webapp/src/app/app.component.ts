@@ -5,6 +5,7 @@ import {Component} from '@angular/core';
     template: `
         <jb-navbar></jb-navbar>
         <jb-content></jb-content>
+        <jb-footer></jb-footer>
     `,
     styleUrls: ['../scss/app.component.scss']
 })

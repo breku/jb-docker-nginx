@@ -2,22 +2,23 @@
 
 .jb-content {
 	background-color: $content-background-color;
-	margin-left: -8px;
 }
+
 
 .jb-landing-image {
-	background-image: url('../img/road.jpg') ;
-	width: 1920px;
-	height:880px;
-
+	background-image: url('../img/road.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 880px;
 }
 
-.jb-text{
+.jb-text {
 	margin: 40px auto;
-	margin-top: 0;
 	max-width: 1000px;
 	line-height: 1.6;
 	font-size: 18px;
 	color: $text-color;
-
+	padding-left: 10px;
+	padding-right: 10px;
 }

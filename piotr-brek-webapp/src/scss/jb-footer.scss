@@ -1,0 +1,25 @@
+@import "variables";
+
+.jb-footer-separation {
+	height: $footer-separation-height;
+	background-color: $footer-separation-color;
+	width: 100%;
+}
+
+.jb-footer-text {
+	margin: 40px auto;
+	max-width: 1000px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.6;
+	font-size: 18px;
+	color: $text-color;
+}
+
+.jb-footer-element {
+
+}
+
+.jb-accent {
+	color: $accent-color;
+}
