@@ -8,7 +8,7 @@ function clean(){
 
 function buildApp(){
     pushd ../piotr-brek-webapp
-    ng build
+    ng build --prod
     popd
 }
 

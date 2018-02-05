@@ -1,0 +1,21 @@
+@import "variables";
+
+.jb-navbar {
+	position: fixed;
+	margin-right: 0;
+	margin-left: -8px;
+	top: 0;
+	width: 100%;
+	height:$navbar-height;
+	background-color: $navbar-background-color;
+	vertical-align: middle;
+	display:flex;
+	align-items:center;
+	padding-left: 30px;
+}
+
+.jb-nav-element{
+	color: $accent-color;
+}
+
+

@@ -8,4 +8,4 @@
 
 3. Development
 
-ng run
+ng serve
