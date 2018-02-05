@@ -2,8 +2,8 @@
 
 
 function clean(){
-    mkdir -p dist/
-    rm -rf dist/*
+    mkdir -p dist/piotrbrek
+    rm -rf dist/piotrbrek/*
 }
 
 function buildApp(){
@@ -13,7 +13,7 @@ function buildApp(){
 }
 
 function copyToDist(){
-    cp ../piotr-brek-webapp/dist/* dist/
+    cp ../piotr-brek-webapp/dist/* dist/piotrbrek/
 }
 
 
