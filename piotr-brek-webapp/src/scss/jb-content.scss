@@ -11,7 +11,15 @@
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
-	height: 880px;
+	height: 750px;
+
+	@media screen and (max-width: $medium-screen) {
+		height: 600px;
+	}
+
+	@media screen and (max-width: $small-screen) {
+		height: 500px;
+	}
 }
 
 .jb-text {
