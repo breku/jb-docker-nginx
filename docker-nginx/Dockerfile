@@ -9,3 +9,4 @@ RUN apt-get install -y vim
 RUN apt-get install -y nano
 
 COPY dist/ /usr/share/nginx/html
+COPY image/ /
